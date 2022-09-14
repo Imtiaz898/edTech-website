@@ -1,0 +1,45 @@
+.carousel-caption {
+
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+
+#carousel-inner-color {
+    filter: brightness(50%);
+
+}
+
+p {
+    color: #F4F4F4;
+}
+
+i {
+    font-size: 30px;
+    color: grey;
+}
+
+.fa-brands {
+    margin: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption button {
+        font-size: 10px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 10px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+}
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) { */
